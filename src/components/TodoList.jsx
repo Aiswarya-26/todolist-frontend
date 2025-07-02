@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function TodoList() {
     const [tasks, setTasks] = useState([]);
@@ -53,7 +53,7 @@ function TodoList() {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-pink-300 to-purple-400 flex items-center justify-center p-4">
+        <div className="min-h-screen bg-black flex items-center justify-center p-4">
             <div className="bg-white p-6 rounded shadow-md w-full max-w-xl">
                 <h2 className="text-2xl font-bold mb-4 text-center text-purple-700">📝 To-Do List</h2>
                 <div className="grid gap-2 mb-4">
@@ -112,7 +112,7 @@ function TodoList() {
                                 {task.description && (
                                     <p className="text-sm text-gray-600">{task.description}</p>
                                 )}
-                                <p className="text-sm">📅 {task.date} | 🎯 {task.priority}</p>
+                                <p className="text-sm">📅 {task.date} |  {task.priority}</p>
                             </div>
                             <div className="flex flex-wrap gap-1">
                                 <button

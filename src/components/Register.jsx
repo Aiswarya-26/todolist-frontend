@@ -18,7 +18,7 @@ function Register() {
     return (
         <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-purple-400 to-blue-500">
             <form className="bg-white p-8 rounded shadow-md w-80" onSubmit={handleSubmit}>
-                <h2 className="text-2xl font-bold mb-4 text-center text-purple-700">Register</h2>
+                <h2 className="text-2xl font-bold mb-4 text-center text-black-700">Register</h2>
                 <input
                     className="w-full mb-2 p-2 border rounded"
                     type="text"
@@ -46,7 +46,7 @@ function Register() {
                     onChange={handleChange}
                     required
                 />
-                <button className="w-full bg-purple-600 text-white py-2 rounded hover:bg-purple-700" type="submit">
+                <button className="w-full  bg-black-600 text-white py-2 rounded hover:bg-black-700" type="submit">
                     Register
                 </button>
             </form>
