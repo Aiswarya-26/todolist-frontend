@@ -16,6 +16,11 @@ A clean, responsive **To-Do List application built with React, Vite, and Tailwin
 ## Screenshots
 
 (Add screenshots here after taking them)
+### Login Page
+![Login](./screenshots/login.png)
+
+### To-Do List Page
+![To-Do List](./screenshots/todolist.png)
 
 ## Setup Instructions
 
