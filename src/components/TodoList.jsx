@@ -53,9 +53,11 @@ function TodoList() {
     };
 
     return (
-        <div className="min-h-screen bg-black flex items-center justify-center p-4">
+        <div className="min-h-screen bg-blue-300 flex items-center justify-center p-4">
             <div className="bg-white p-6 rounded shadow-md w-full max-w-xl">
                 <h2 className="text-2xl font-bold mb-4 text-center text-purple-700">📝 To-Do List</h2>
+                <p className="text-center text-gray-600 italic mb-4">"Write it, do it, done🎯💪"</p>
+                <p className="text-center text-gray-500 mb-6">"Organize your tasks with ease and style!"</p>
                 <div className="grid gap-2 mb-4">
                     <input
                         type="text"
